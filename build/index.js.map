@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../src/",
+  "sources": [
+    "index.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;EAAA;EAEA,MAAM,CAAC,OAAP,GAAiB,QAAA,CAAC,GAAD,CAAA,EAAA;AAFjB",
+  "sourcesContent": [
+    "'use strict'\r\n\r\nmodule.exports = (ndx) ->"
+  ]
+}
