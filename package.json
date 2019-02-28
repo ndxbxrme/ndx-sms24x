@@ -1,6 +1,6 @@
 {
   "name": "ndx-sms24x",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "24x sms api support for ndx-framework apps",
   "main": "build/index.js",
   "scripts": {
@@ -23,5 +23,8 @@
     "grunt-contrib-nodeunit": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "load-grunt-tasks": "^4.0.0"
+  },
+  "dependencies": {
+    "soap": "^0.26.0"
   }
 }
