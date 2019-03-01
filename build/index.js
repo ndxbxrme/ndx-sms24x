@@ -24,7 +24,7 @@
     cleanNo = function(num) {
       num = num.replace(/\+|\s/g, '');
       num = num.replace(/^447/, '07');
-      if (/^447/.test(num) && /^\d+$/.test(num)) {
+      if (/^07/.test(num) && /^\d+$/.test(num)) {
         return num;
       } else {
         return null;
@@ -96,9 +96,9 @@
                   if (err) {
                     safeCallback('error', err);
                   } else {
-                    safeCallback('send', response);
+                    safeCallback('send', result);
                   }
-                  return typeof cb === "function" ? cb(err, response) : void 0;
+                  return typeof cb === "function" ? cb(err, result) : void 0;
                 });
               });
             }

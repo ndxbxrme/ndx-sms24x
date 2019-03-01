@@ -12,7 +12,7 @@ module.exports = (ndx) ->
   cleanNo = (num) ->
     num = num.replace /\+|\s/g, ''
     num = num.replace /^447/, '07'
-    if /^447/.test(num) and /^\d+$/.test(num) then num else null
+    if /^07/.test(num) and /^\d+$/.test(num) then num else null
   cleanNos = (nos) ->
     outnos = []
     for num in nos
@@ -60,8 +60,8 @@ module.exports = (ndx) ->
                 if err
                   safeCallback 'error', err
                 else
-                  safeCallback 'send', response
-                cb? err, response
+                  safeCallback 'send', result
+                cb? err, result
         else
           console.log 'sending sms disabled'
       else

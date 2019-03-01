@@ -1,6 +1,6 @@
 {
   "name": "ndx-sms24x",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "24x sms api support for ndx-framework apps",
   "main": "build/index.js",
   "scripts": {
